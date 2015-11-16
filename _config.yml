@@ -1,11 +1,11 @@
 # Site settings
-title: FICAM Architecture
-name: FICAM Architecture
+title: FICAM Playbook
+name: FICAM Playbook
 email: lachelle.levan@gsa.gov
 author:
     name: FICAM
-description: Information on the US FICAM Architecture
-baseurl: '/ficam-arch'
+description: The FICAM Playbook and Guidance materials
+baseurl: '/ficam-playbook'
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  lachellel
@@ -18,9 +18,9 @@ logoalt: Federal Identity Credential and Access Management
 # Repo list
 # List repos that you would like to appear on the homepage here
 repos:
-- name: ficam-arch
-  description: FICAM Architecture Working Products
-  url: https://github.com/lachellel/ficam-arch
+- name: ficam-playbook
+  description: FICAM Playbook & Guidance documents
+  url: https://github.com/allietbo/ficam-playbook
 
 # Build settings
 markdown: kramdown
@@ -46,32 +46,15 @@ navigation:
   url: overview
   internal: true
   coll: false
-- text: Conceptual Diagram
-  url: conceptual
-  internal: true
-  coll: false
-- text: Goals and Objectives
-  url: goals
-  internal: true
-  coll: false
-- text: Services Framework
-  url: services/index/
+- text: Privileged Users Guidance
+  url: privilege/index/
   internal: true
   coll: true
-  collname: services
-- text: Business Process Diagram
-  url: businessprocess
-  internal: true
-  coll: false
-- text: Use Cases
-  url: usecases/index/
-  internal: true
-  coll: true
-  collname: usecases
-- text: Applications Diagrams
-  url: applications
-  internal: true
-  coll: false
+  collname: privilege
+#- text: Applications Diagrams
+#  url: applications
+#  internal: true
+#  coll: false
 #- text: Demos
 #  url: demos/index/
 #  internal: true
@@ -89,13 +72,9 @@ navigation:
 
 #https://github.com/jekyll/jekyll/issues/2346
 collections:
-  usecases:
-    label: "Use Cases"
-    permalink: usecases/:path/
-    output: true
-  services:
-    label: "Services"
-    permalink: services/:path/
+  privilege:
+    label: "Privileged Users Guidance"
+    permalink: privilege/:path/
     output: true
   demos:
     label: "Demos"
