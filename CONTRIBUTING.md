@@ -1,6 +1,6 @@
 ## Welcome
 
-Thank you for considering contributing to our development of open and transparent architecture.  If you're unsure or afraid of anything, just ask or submit the issue or pull request. We appreciate any sort of contribution and are committed to transparency and collaboration.
+Thank you for considering contributing to our development of open and transparent playbook.  If you're unsure or afraid of anything, just ask or submit the issue or pull request. We appreciate any sort of contribution and are committed to transparency and collaboration.
 
 Before contributing, we encourage you to read our CONTRIBUTING policy (you are here), our LICENSE, and our README, all of which are in this repository.
 
@@ -19,7 +19,7 @@ with this waiver of copyright interest.
 ## How to Contribute
 We welcome contributions in the form of requests, issues and pages.  
 
-* _Requests:_ You've identified a useful addition to the architecture which benefits USG Agencies
+* _Requests:_ You've identified a useful addition to the playbook which benefits USG Agencies
   * Open an Issue on this repository
   * State the recommendation
   * Include any links or other information
