@@ -4,8 +4,8 @@ name: FICAM Playbook
 email: lachelle.levan@gsa.gov
 author:
     name: FICAM
-description: PIV Guidance
-baseurl: '/playbook-piv'
+description: Privileged User Guidance
+baseurl: '/playbook-privilege'
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  lachellel
@@ -18,9 +18,9 @@ logoalt: Federal Identity Credential and Access Management
 # Repo list
 # List repos that you would like to appear on the homepage here
 repos:
-- name: playbook-piv
-  description: FICAM Playbook - PIV Guidance
-  url: https://github.com/allietbo/playbook-piv
+- name: playbook-privilege
+  description: FICAM Playbook - Privileged User Guidance
+  url: https://github.com/allietbo/playbook-privilege
 
 # Build settings
 markdown: kramdown
@@ -38,16 +38,16 @@ exclude:
 - vendor
 
 navigation:
-- text: PIV Enablement Introduction
+- text: Privileged User Guides Introduction
   url: index.html
   internal: true
   coll: false
-- text: PIV Guide 1
-  url: piv1
+- text: Privileged User Guide 1
+  url: privilege1
   internal: true
   coll: false
-- text: PIV Guide 2
-  url: piv2
+- text: Privileged User Guide 2
+  url: privilege2
   internal: true
   coll: false
 

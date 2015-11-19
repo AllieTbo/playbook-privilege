@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PIV Guide 2
-permalink: /piv2/
+title: Privileged User Guide 1
+permalink: /privilege1/
 ---
 #### Playbook Overview
 
