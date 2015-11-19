@@ -198,6 +198,7 @@ Navigation
   padding: 0;
   /*border-top: 1px solid @gray-50;*/
 }
+
 .sidebar-nav li {
   list-style: none;
   border-bottom: 1px solid #babbbd;
